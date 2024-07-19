@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hover Platform Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="https://img.freepik.com/premium-vector/blue-cube-with-pixel-art-style_475147-130.jpg" type="image/x-icon" />
+  </head>
+  <body>
+    <h1 class="title">Hover Platform Game</h1>
+    <h2 class="sub-title">Use your cursor to move, don't leave the platform</h2>
+    <div class="center">
+      <input type="checkbox" id="level-one" />
+      <div class="level" l="1">
+        <div class="level-title">Level 1</div>
+        <div class="step start" r="0" c="0"></div>
+        <div class="step" r="0" c="1"></div>
+        <div class="step" r="1" c="1"></div>
+        <div class="step" r="2" c="1"></div>
+        <div class="step" r="3" c="1"></div>
+        <div class="step" r="4" c="1"></div>
+        <div class="step" r="4" c="2"></div>
+        <div class="step" r="4" c="3"></div>
+        <div class="step finish" r="4" c="4">
+          <label for="level-one" class="goal"></label>
+        </div>
+      </div>
+
+      <input type="checkbox" id="level-two" />
+      <div class="level" l="2">
+        <div class="level-title">Level 2</div>
+        <div class="step start" r="2" c="2"></div>
+        <div class="step" r="2" c="1"></div>
+        <div class="step" r="2" c="0"></div>
+        <div class="step" r="1" c="0"></div>
+        <div class="step" r="1" c="1"></div>
+        <div class="step" r="1" c="2"></div>
+        <div class="step" r="1" c="3"></div>
+        <div class="step" r="1" c="4"></div>
+        <div class="step" r="2" c="4"></div>
+        <div class="step" r="3" c="4"></div>
+        <div class="step finish" r="4" c="4">
+          <label for="level-two" class="goal"></label>
+        </div>
+      </div>
+
+      <input type="checkbox" id="level-three" />
+      <div class="level" l="3">
+        <div class="level-title">Level 3</div>
+        <div class="step start" r="1" c="1"></div>
+        <div class="step" r="2" c="1"></div>
+        <div class="step" r="2" c="0"></div>
+        <div class="step" r="1" c="0"></div>
+        <div class="step" r="0" c="0"></div>
+        <div class="step" r="0" c="1"></div>
+        <div class="step" r="0" c="2"></div>
+        <div class="step" r="1" c="2"></div>
+        <div class="step" r="1" c="3"></div>
+        <div class="step" r="1" c="4"></div>
+        <div class="step" r="2" c="4"></div>
+        <div class="step" r="3" c="4"></div>
+        <div class="step finish" r="4" c="4">
+          <label for="level-three" class="goal"></label>
+        </div>
+      </div>
+
+      <input type="checkbox" id="level-four" />
+      <div class="level" l="4">
+        <div class="level-title">Level 4</div>
+        <div class="step start" r="0" c="0"></div>
+        <div class="step" r="1" c="0"></div>
+        <div class="step" r="2" c="0"></div>
+        <div class="step" r="3" c="0"></div>
+        <div class="step" r="3" c="1"></div>
+        <div class="step" r="3" c="2"></div>
+        <div class="step" r="4" c="2"></div>
+        <div class="step" r="4" c="1"></div>
+        <div class="step" r="3" c="1"></div>
+        <div class="step" r="2" c="1"></div>
+        <div class="step" r="2" c="2"></div>
+        <div class="step" r="2" c="3"></div>
+        <div class="step finish" r="2" c="4">
+          <label for="level-four" class="goal"></label>
+        </div>
+      </div>
+
+      <input type="checkbox" id="level-five" />
+      <div class="level" l="5">
+        <div class="level-title">Level 5</div>
+        <div class="step start" r="4" c="3"></div>
+        <div class="step" r="3" c="3"></div>
+        <div class="step" r="2" c="3"></div>
+        <div class="step" r="1" c="3"></div>
+        <div class="step" r="1" c="4"></div>
+        <div class="step" r="2" c="4"></div>
+        <div class="step" r="2" c="3"></div>
+        <div class="step" r="2" c="2"></div>
+        <div class="step" r="3" c="2"></div>
+        <div class="step" r="3" c="3"></div>
+        <div class="step" r="2" c="3"></div>
+        <div class="step" r="1" c="3"></div>
+        <div class="step" r="0" c="3"></div>
+        <div class="step" r="0" c="2"></div>
+        <div class="step" r="0" c="1"></div>
+        <div class="step finish" r="0" c="0">
+          <label for="level-five" class="goal"></label>
+        </div>
+      </div>
+
+      <input type="checkbox" id="level-six" />
+      <div class="level" l="6">
+        <div class="level-title">Level 6</div>
+        <div class="step start" r="2" c="4"></div>
+        <div class="step" r="2" c="3"></div>
+        <div class="step" r="3" c="3"></div>
+        <div class="step" r="4" c="3"></div>
+        <div class="step" r="3" c="3"></div>
+        <div class="step" r="2" c="3"></div>
+        <div class="step" r="1" c="3"></div>
+        <div class="step" r="0" c="3"></div>
+        <div class="step" r="0" c="2"></div>
+        <div class="step" r="0" c="1"></div>
+        <div class="step" r="0" c="0"></div>
+        <div class="step" r="0" c="1"></div>
+        <div class="step" r="0" c="2"></div>
+        <div class="step" r="0" c="3"></div>
+        <div class="step" r="1" c="3"></div>
+        <div class="step" r="2" c="3"></div>
+        <div class="step" r="2" c="2"></div>
+        <div class="step" r="2" c="1"></div>
+        <div class="step finish" r="2" c="0">
+          <label for="level-six" class="goal"></label>
+        </div>
+      </div>
+
+      <input type="checkbox" id="level-seven" />
+      <div class="level" l="7">
+        <div class="level-title">Level 7</div>
+        <div class="step start" r="1" c="1"></div>
+        <div class="step" r="1" c="0"></div>
+        <div class="step" r="0" c="0"></div>
+        <div class="step" r="0" c="1"></div>
+        <div class="step" r="0" c="2"></div>
+        <div class="step" r="1" c="2"></div>
+        <div class="step" r="1" c="3"></div>
+        <div class="step" r="2" c="3"></div>
+        <div class="step" r="2" c="2"></div>
+        <div class="step" r="2" c="1"></div>
+        <div class="step" r="2" c="0"></div>
+        <div class="step" r="1" c="0"></div>
+        <div class="step" r="0" c="0"></div>
+        <div class="step" r="0" c="1"></div>
+        <div class="step" r="0" c="2"></div>
+        <div class="step" r="1" c="2"></div>
+        <div class="step" r="1" c="3"></div>
+        <div class="step" r="2" c="3"></div>
+        <div class="step" r="2" c="4"></div>
+        <div class="step" r="3" c="4"></div>
+        <div class="step finish" r="4" c="4">
+          <label for="level-seven" class="goal"></label>
+        </div>
+      </div>
+
+      <input type="checkbox" id="level-eight" />
+      <div class="level" l="8">
+        <div class="level-title">Level 8</div>
+        <div class="step start" r="3" c="1"></div>
+        <div class="step" r="3" c="2"></div>
+        <div class="step" r="2" c="2"></div>
+        <div class="step" r="2" c="1"></div>
+        <div class="step" r="3" c="1"></div>
+        <div class="step" r="4" c="1"></div>
+        <div class="step" r="4" c="2"></div>
+        <div class="step" r="3" c="2"></div>
+        <div class="step" r="2" c="2"></div>
+        <div class="step" r="2" c="1"></div>
+        <div class="step" r="1" c="1"></div>
+        <div class="step" r="1" c="2"></div>
+        <div class="step" r="0" c="2"></div>
+        <div class="step" r="0" c="1"></div>
+        <div class="step" r="0" c="0"></div>
+        <div class="step" r="1" c="0"></div>
+        <div class="step" r="1" c="1"></div>
+        <div class="step" r="1" c="2"></div>
+        <div class="step" r="1" c="3"></div>
+        <div class="step" r="0" c="3"></div>
+        <div class="step finish" r="0" c="4">
+          <label for="level-eight" class="goal"></label>
+        </div>
+      </div>
+
+      <input type="checkbox" id="level-nine" />
+      <div class="level" l="9">
+        <div class="level-title">Level 9</div>
+        <div class="step start" r="4" c="4"></div>
+        <div class="step" r="3" c="4"></div>
+        <div class="step" r="2" c="4"></div>
+        <div class="step" r="1" c="4"></div>
+        <div class="step" r="0" c="4"></div>
+        <div class="step" r="0" c="3"></div>
+        <div class="step" r="1" c="3"></div>
+        <div class="step" r="2" c="3"></div>
+        <div class="step" r="3" c="3"></div>
+        <div class="step" r="4" c="3"></div>
+        <div class="step" r="4" c="2"></div>
+        <div class="step" r="4" c="1"></div>
+        <div class="step" r="3" c="1"></div>
+        <div class="step" r="3" c="0"></div>
+        <div class="step" r="4" c="0"></div>
+        <div class="step" r="4" c="1"></div>
+        <div class="step" r="4" c="2"></div>
+        <div class="step" r="3" c="2"></div>
+        <div class="step" r="3" c="3"></div>
+        <div class="step" r="2" c="3"></div>
+        <div class="step" r="2" c="2"></div>
+        <div class="step" r="1" c="2"></div>
+        <div class="step" r="1" c="1"></div>
+        <div class="step" r="0" c="1"></div>
+        <div class="step finish" r="0" c="0">
+          <label for="level-nine" class="goal"></label>
+        </div>
+      </div>
+
+      <input type="checkbox" id="level-ten" />
+      <div class="level" l="10">
+        <div class="level-title">Level 10</div>
+        <div class="step start" r="4" c="4"></div>
+        <div class="step" r="4" c="3"></div>
+        <div class="step" r="3" c="3"></div>
+        <div class="step" r="3" c="4"></div>
+        <div class="step" r="2" c="4"></div>
+        <div class="step" r="2" c="3"></div>
+        <div class="step" r="1" c="3"></div>
+        <div class="step" r="1" c="4"></div>
+        <div class="step" r="0" c="4"></div>
+        <div class="step" r="0" c="3"></div>
+        <div class="step" r="0" c="2"></div>
+        <div class="step" r="1" c="2"></div>
+        <div class="step" r="2" c="2"></div>
+        <div class="step" r="2" c="1"></div>
+        <div class="step" r="3" c="1"></div>
+        <div class="step" r="3" c="0"></div>
+        <div class="step" r="4" c="0"></div>
+        <div class="step" r="4" c="1"></div>
+        <div class="step" r="3" c="1"></div>
+        <div class="step" r="3" c="2"></div>
+        <div class="step" r="2" c="2"></div>
+        <div class="step" r="2" c="1"></div>
+        <div class="step" r="3" c="1"></div>
+        <div class="step" r="3" c="2"></div>
+        <div class="step" r="2" c="2"></div>
+        <div class="step" r="2" c="1"></div>
+        <div class="step" r="3" c="1"></div>
+        <div class="step" r="3" c="2"></div>
+        <div class="step" r="2" c="2"></div>
+        <div class="step" r="2" c="1"></div>
+        <div class="step" r="3" c="1"></div>
+        <div class="step" r="3" c="2"></div>
+        <div class="step" r="2" c="2"></div>
+        <div class="step" r="2" c="3"></div>
+        <div class="step" r="2" c="4"></div>
+        <div class="step" r="2" c="3"></div>
+        <div class="step" r="2" c="2"></div>
+        <div class="step" r="2" c="1"></div>
+        <div class="step" r="2" c="0"></div>
+        <div class="step" r="2" c="1"></div>
+        <div class="step" r="1" c="1"></div>
+        <div class="step" r="0" c="1"></div>
+        <div class="step finish" r="0" c="0">
+          <label for="level-ten" class="goal"></label>
+        </div>
+      </div>
+
+      <input type="checkbox" id="finish" />
+      <div class="level">
+        <div class="message">
+          <h1>CONGRATULATIONS!</h1>
+          <p>
+            Thanks for playing!<br />
+            Impressive patience!!
+          </p>
+          <a href="https://www.linkedin.com/in/petra-bayu-pangestu/" class="share" target="_blank">LinkedIn</a>
+          <a href="https://github.com/petrabayu" class="share" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="game.js"></script>
+  <script>
+    document.addEventListener("contextmenu", (event) => event.preventDefault());
+    document.onkeydown = function (e) {
+      if ((e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) || e.keyCode === 123) {
+        e.preventDefault();
+      }
+    };
+  </script>
+</html>
